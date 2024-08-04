@@ -1,16 +1,16 @@
 {
-   "name": "suhail-md",
+   "name": "Lussh-AI",
    "version": "1.3.9",
    "description": "Multi device whatsapp bot.",
    "main": "index.js",
    "type": "commonjs",  
    "scripts": {
-            "run": "pm2 start . --deep-monitoring --attach --name Lussh || node .",
-            "suhail": "pm2 start . --deep-monitoring --attach --name Lussh || node .",
-            "start": "pm2 start . --attach --name Suhail",
-            "stop": "pm2 stop Lussh",
-            "old-heroku-postbuild": "git clone https://github.com/macksyn/Suhail-Md.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
-            "fis-heroku-postbuild": "git clone https://github.com/macksyn/Suhail-Md.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
+            "run": "pm2 start . --deep-monitoring --attach --name Lussh AI || node .",
+            "Lussh": "pm2 start . --deep-monitoring --attach --name Lussh AI || node .",
+            "start": "pm2 start . --attach --name Lussh AI",
+            "stop": "pm2 stop Lussh AI",
+            "old-heroku-postbuild": "git clone https://github.com/macksyn/Lussh-AI.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
+            "fis-heroku-postbuild": "git clone https://github.com/macksyn/Lussh-AI.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
             "dbs--postinstall": "npx puppeteer@latest install --y"
    },
    "author": "macksyn",
@@ -74,8 +74,8 @@
    },
    "--repository": {
       "type": "git",
-      "url": "git+https://github.com/macksyn/Suhail-Md.git"
+      "url": "git+https://github.com/macksyn/Lussh-AI.git"
    },
-   "--bugs": { "url": "https://github.com/macksyn/Suhail-Md/issues" },
-   "--homepage": "https://github.com/macksyn/Suhail-Md#readme"
+   "--bugs": { "url": "https://github.com/macksyn/Lussh-AI/issues" },
+   "--homepage": "https://github.com/macksyn/Lussh-AI#readme"
 }
