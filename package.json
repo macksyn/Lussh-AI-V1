@@ -9,8 +9,8 @@
             "Lussh": "pm2 start . --deep-monitoring --attach --name Lussh AI || node .",
             "start": "pm2 start . --attach --name Lussh AI",
             "stop": "pm2 stop Lussh AI",
-            "old-heroku-postbuild": "git clone https://github.com/macksyn/Lussh-AI.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
-            "fis-heroku-postbuild": "git clone https://github.com/macksyn/Lussh-AI.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
+            "old-heroku-postbuild": "git clone https://github.com/macksyn/Lussh-AI-V1.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
+            "fis-heroku-postbuild": "git clone https://github.com/macksyn/Lussh-AI-V1.git temp1 && rsync -av temp1/* ./ && rsync -av temp1/.* ./ && rm -rf temp1 && npm i && npx puppeteer@latest install",
             "dbs--postinstall": "npx puppeteer@latest install --y"
    },
    "author": "macksyn",
@@ -74,7 +74,7 @@
    },
    "--repository": {
       "type": "git",
-      "url": "git+https://github.com/macksyn/Lussh-AI.git"
+      "url": "git+https://github.com/macksyn/Lussh-AI-V1.git"
    },
    "--bugs": { "url": "https://github.com/macksyn/Lussh-AI/issues" },
    "--homepage": "https://github.com/macksyn/Lussh-AI#readme"
