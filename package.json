@@ -5,8 +5,8 @@
    "main": "index.js",
    "type": "commonjs",  
    "scripts": {
-            "run": "pm2 start . --deep-monitoring --attach --name Lussh AI || node .",
-            "Lussh": "pm2 start . --deep-monitoring --attach --name Lussh AI || node .",
+            "run": "pm2 start . --deep-monitoring --attach --name Lussh || node .",
+            "Lussh": "pm2 start . --deep-monitoring --attach --name Lussh || node .",
             "start": "pm2 start . --attach --name Lussh AI",
             "stop": "pm2 stop Lussh AI",
             "old-heroku-postbuild": "git clone https://github.com/macksyn/Lussh-AI-V1.git temp && mv temp/.git .git && rm -rf temp && npx puppeteer@latest install  --y",
